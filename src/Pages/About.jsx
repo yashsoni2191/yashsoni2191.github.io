@@ -62,7 +62,7 @@ const About = () => {
           </p>
 
           <motion.a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1CIrbAlF80c2aP5Tgb1G1_jpcS7qgNpz1/view?usp=drive_link"
             download
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}

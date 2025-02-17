@@ -46,7 +46,7 @@ const Home = () => {
 
           <motion.div whileHover={{ scale: 1.1 }}>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1CIrbAlF80c2aP5Tgb1G1_jpcS7qgNpz1/view?usp=drive_link"
               download
               className="px-6 py-3 bg-green-500 hover:bg-green-600 transition-all rounded-lg text-lg font-semibold cursor-pointer"
             >

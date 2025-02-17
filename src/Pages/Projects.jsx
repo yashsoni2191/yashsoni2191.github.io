@@ -23,8 +23,8 @@ const projects = [
       "A creative and fully animated portfolio built with React.js and Framer Motion.",
     tech: ["React.js", "Framer Motion", "Tailwind CSS"],
     img: portfolioImg,
-    live: "https://your-portfolio.com",
-    github: "https://github.com/yashsoni2191/Weather-API.git",
+    live: "https://yash-portfolio-gamma.vercel.app/",
+    github: "https://github.com/yashsoni2191/yashsoni2191.github.io.git",
   },
   {
     title: "Creative Weather API",
