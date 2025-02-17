@@ -74,7 +74,7 @@ const Header = () => {
             transition={{ duration: 0.3 }}
             className="md:hidden bg-white dark:bg-gray-800 p-4 rounded-lg mt-2 shadow-lg"
           >
-            {["Home", "About", "Skills & Education", "Projects"].map(
+            {["Home", "About", "Projects", "Contact"].map(
               (item, index) => (
                 <motion.div
                   key={index}
