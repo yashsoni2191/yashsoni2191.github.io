@@ -10,8 +10,9 @@ import jsIcon from "../assets/js.png";
 import reactIcon from "../assets/react.svg";
 import firebaseIcon from "../assets/firebase.png";
 import aiIcon from "../assets/ai.png";
-import SA from "../assets/Semrush-Academy.jpg"; // Import React certificate
-import AWS from "../assets/AWS-Skill-Builder.jpg"; // Import JavaScript certificate
+import SA from "../assets/Semrush-Academy.jpg"; 
+import AWS from "../assets/AWS-Skill-Builder.jpg"; 
+import RNW from "../assets/GIM & Master in Frontend Development - Certificate.jpg";
 
 // Import education logos
 import swarrnimLogo from "../assets/swarrnim.png";
@@ -49,13 +50,13 @@ const certifications = [
     image: AWS,
     link: "https://drive.google.com/file/d/1mlyKSvRUj9AJDandrTVRPqsRUYFSihr_/view?usp=drive_link",
   },
-  // {
-  //   title: "Frontend Development Certification",
-  //   provider: "Red & White Edu. Institute",
-  //   year: "2025",
-  //   image: AWS,
-  //   link: "https://drive.google.com/file/d/1mlyKSvRUj9AJDandrTVRPqsRUYFSihr_/view?usp=drive_link",
-  // },
+  {
+    title: "GIM & Master in Frontend Development Certification",
+    provider: "Red & White Edu. Institute",
+    year: "2025",
+    image: RNW,
+    link: "https://drive.google.com/file/d/1cMyLkTOY94XquJbFkHAW7MjLctZKx6eL/view?usp=drive_link",
+  },
 ];
 
 const skills = [
@@ -155,7 +156,7 @@ const Skill_Edu = () => {
         <h2 className="text-4xl font-bold text-blue-500 mb-6">
           Certifications
         </h2>
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {certifications.map((cert, index) => (
             <motion.div
               key={index}
